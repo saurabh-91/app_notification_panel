@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org /TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form action = "" name="frmSubmit" method="post">
+<!--<input type="checkbox" name="txtCheck" value="<?php echo $_POST['txtCheck'];?>"  /><br />-->
+<label>Name</label><br />
+<input type="text" name="txtName" id="NameTextBox" value="<?php echo $_POST['txtName']; ?>" />
+<input type="checkbox" name="txtCheck" value="your value" <?php if(isset($_POST['txtCheck'])) echo "checked='checked'"; ?>  /><br />
+<br />
+<label>E Mail</label><br />
+ <input type="text" name="txtEmail" id="EmailTextBox" value="<?php  echo $_POST['txtEmail'];?>" />
+ <input name="BtnSubmit" type="submit" onclick="MM_validateForm('NameTextBox','','R','EmailTextBox','','R');return document.MM_returnValue" value="Send" />
+</form>
+</body>
+</html>

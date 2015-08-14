@@ -1,0 +1,75 @@
+
+
+
+
+Q1:-
+        db.t1.aggregate([{$match:{"product name":"s4"}},{$group:{_id:{did:"$device",pname:"$product name",ename:"$event"},count:{"$sum":1}}}])
+    if product name is null then remove match field
+
+
+
+
+db.t1.aggregate([{$group:{_id:{did:"$device",ename:"$event"},count:{"$sum":1}}},{$match:{$or:[{"_id.ename":"app visit",count:{$gt:1}},{"_id.ename":"detail page",count:{$gt:1}}]}}])
+
+
+
+
+query with match then aggregation and then match
+db.t1.aggregate([{$match:{"product name":{$in:["s3","s4","s6"]}}},{$group:{_id:{did:"$device",pname:"$product name",ename:"$event"},count:{"$sum":1}}},{$match:{$or:[{"_id.ename":"app visit",count:{$gt:0}},{"_id.ename":"detail page",count:{$gte:0}},{"_id.ename":"fav",count:{$gte:0}}]}}]).pretty()
+
+
+
+only device name as outputs
+db.t1.aggregate([{$match:{"product name":{$in:["s3","s4","s6"]}}},{$group:{_id:{did:"$device", name:"$product name",ename:"$event"},count:{"$sum":1}}},{$match:{$and:[{"_id.ename":"app visit",count:{$gt:1}},{"_id.ename":"detail page",count:{$gte:1},"_id.name":"s6"},{"_id.ename":"fav",count:{$gte:1}}]}},{$project:{"_id.did":1}},{$group:{_id:{deid:"$_id.did"}}}]).pretty()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+db.t1.aggregate([
+    { "$group": {
+        "_id": {
+            "did": "$device",
+            "event": "$"
+        },
+        "bookCount": { "$sum": 1 }
+    }},
+    { "$group": {
+        "_id": "$_id.addr",
+        "books": {
+            "$push": {
+                "book": "$_id.book",
+                "count": "$bookCount"
+            },
+        },
+        "count": { "$sum": "$bookCount" }
+    }},
+    { "$sort": { "count": -1 } },
+    { "$limit": 2 }
+])

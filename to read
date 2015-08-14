@@ -1,0 +1,299 @@
+
+2015-08-11T15:42:31+05:30	{"anonymousId":"684ee341-53f8-4585-ad6d-349d91fb443b","channel":"server","context":{"app":{"build":104,"name":"91mobiles","namespace":"com.mob91","version":"1.0.4"},"device":{"id":"9c39f977b4cb0853","manufacturer":"Karbonn","model":"Karbonn A27+","name":"mbk77_twn_cu_jb","type":"android"},"ip":"60.254.6.107","library":{"name":"analytics-android","version":"3.1.2"},"locale":"en-IN","network":{"bluetooth":false,"carrier":"Vodafone","cellular":false,"wifi":true},"os":{"name":"Android","version":"4.1.2"},"screen":{"density":1.5,"height":960,"width":540},"timezone":"Asia/Calcutta","traits":{"anonymousId":"684ee341-53f8-4585-ad6d-349d91fb443b","email":"deepakdamar.singh@gmail.com","userId":"9c39f977b4cb0853"},"userAgent":"Dalvik/1.6.0 (Linux; U; Android 4.1.2; Karbonn A27+ Build/JZO54K)"},"integrations":{"All":true,"AppsFlyer":true,"Mixpanel":true},"messageId":"33509d0d-28a8-4990-8533-5430089cb04d","originalTimestamp":"2015-08-11T15:41:54+0530","projectId":"mqCSrcxyGW","receivedAt":"2015-08-11T10:12:31.227Z","sentAt":"2015-08-11T10:12:28.000Z","timestamp":"2015-08-11T10:11:57.227Z","traits":{"anonymousId":"684ee341-53f8-4585-ad6d-349d91fb443b","email":"deepakdamar.singh@gmail.com","userId":"9c39f977b4cb0853"},"type":"identify","userId":"9c39f977b4cb0853","version":2,"writeKey":"DQf6nqU1PaMbcVQenYzYSRd6nkUL21b8"}
+2015-08-11T15:42:31+05:30	{"anonymousId":"684ee341-53f8-4585-ad6d-349d91fb443b","channel":"server","context":{"app":{"build":104,"name":"91mobiles","namespace":"com.mob91","version":"1.0.4"},"device":{"id":"9c39f977b4cb0853","manufacturer":"Karbonn","model":"Karbonn A27+","name":"mbk77_twn_cu_jb","type":"android"},"ip":"60.254.6.107","library":{"name":"analytics-android","version":"3.1.2"},"locale":"en-IN","network":{"bluetooth":false,"carrier":"Vodafone","cellular":false,"wifi":true},"os":{"name":"Android","version":"4.1.2"},"screen":{"density":1.5,"height":960,"width":540},"timezone":"Asia/Calcutta","traits":{"anonymousId":"684ee341-53f8-4585-ad6d-349d91fb443b","email":"deepakdamar.singh@gmail.com","userId":"9c39f977b4cb0853"},"userAgent":"Dalvik/1.6.0 (Linux; U; Android 4.1.2; Karbonn A27+ Build/JZO54K)"},"event":"App Open","integrations":{"All":true,"AppsFlyer":true,"Mixpanel":true},"messageId":"6854fdce-fe94-4ffc-b919-0864f6795dc4","originalTimestamp":"2015-08-11T15:41:56+0530","projectId":"mqCSrcxyGW","properties":{},"receivedAt":"2015-08-11T10:12:31.228Z","sentAt":"2015-08-11T10:12:28.000Z","timestamp":"2015-08-11T10:11:59.228Z","type":"track","userId":"9c39f977b4cb0853","version":2,"writeKey":"DQf6nqU1PaMbcVQenYzYSRd6nkUL21b8"}
+2015-08-11T15:42:32+05:30	{"anonymousId":"20a3c110-4b6e-48b3-ba2a-54c7755ed414","channel":"server","context":{"app":{"build":104,"name":"91mobiles","namespace":"com.mob91","version":"1.0.4"},"device":{"adTrackingEnabled":true,"advertisingId":"d9b5f004-2ea5-424d-a188-c5023faa60cb","id":"533bac51a6b84ca0","manufacturer":"samsung","model":"SM-A500G","name":"a5lte","type":"android"},"ip":"106.79.144.207","library":{"name":"analytics-android","version":"3.1.2"},"locale":"en-US","network":{"bluetooth":false,"carrier":"IDEA","cellular":true,"wifi":false},"os":{"name":"Android","version":"4.4.4"},"screen":{"density":2,"height":1280,"width":720},"timezone":"Asia/Kolkata","traits":{"anonymousId":"20a3c110-4b6e-48b3-ba2a-54c7755ed414","email":"gopalbadar508@gmail.com","userId":"533bac51a6b84ca0"},"userAgent":"Dalvik/1.6.0 (Linux; U; Android 4.4.4; SM-A500G Build/KTU84P)"},"event":"See more stores","integrations":{"All":true,"AppsFlyer":true,"Mixpanel":true},"messageId":"0b759497-9a13-495e-b4c7-7fdc88d35400","originalTimestamp":"2015-08-11T15:40:34+0530","projectId":"mqCSrcxyGW","properties":{"categoryId":"553","categoryName":"mobile","currentPrice":"9999","expectedPrice":"0","make":"Lenovo","model":"K3 Note","osPlatform":"Android v5.0 (Lollipop)","productId":"25106"},"receivedAt":"2015-08-11T10:12:31.673Z","sentAt":"2015-08-11T10:10:59.000Z","timestamp":"2015-08-11T10:12:06.673Z","type":"track","userId":"533bac51a6b84ca0","version":2,"writeKey":"DQf6nqU1PaMbcVQenYzYSRd6nkUL21b8"}
+{"anonymousId":"684ee341-53f8-4585-ad6d-349d91fb443b","channel":"server","context":{"app":{"build":104,"name":"91mobiles","namespace":"com.mob91","version":"1.0.4"},"device":{"id":"9c39f977b4cb0853","manufacturer":"Karbonn","model":"Karbonn A27+","name":"mbk77_twn_cu_jb","type":"android"},"ip":"60.254.6.107","library":{"name":"analytics-android","version":"3.1.2"},"locale":"en-IN","network":{"bluetooth":false,"carrier":"Vodafone","cellular":false,"wifi":true},"os":{"name":"Android","version":"4.1.2"},"screen":{"density":1.5,"height":960,"width":540},"timezone":"Asia/Calcutta","traits":{"anonymousId":"684ee341-53f8-4585-ad6d-349d91fb443b","email":"deepakdamar.singh@gmail.com","userId":"9c39f977b4cb0853"},"userAgent":"Dalvik/1.6.0 (Linux; U; Android 4.1.2; Karbonn A27+ Build/JZO54K)"},"integrations":{"All":true,"AppsFlyer":true,"Mixpanel":true},"messageId":"33509d0d-28a8-4990-8533-5430089cb04d","originalTimestamp":"2015-08-11T15:41:54+0530","projectId":"mqCSrcxyGW","receivedAt":"2015-08-11T10:12:31.227Z","sentAt":"2015-08-11T10:12:28.000Z","timestamp":"2015-08-11T10:11:57.227Z","traits":{"anonymousId":"684ee341-53f8-4585-ad6d-349d91fb443b","email":"deepakdamar.singh@gmail.com","userId":"9c39f977b4cb0853"},"type":"identify","userId":"9c39f977b4cb0853","version":2,"writeKey":"DQf6nqU1PaMbcVQenYzYSRd6nkUL21b8"}
+{"anonymousId":"684ee341-53f8-4585-ad6d-349d91fb443b","channel":"server","context":{"app":{"build":104,"name":"91mobiles","namespace":"com.mob91","version":"1.0.4"},"device":{"id":"9c39f977b4cb0853","manufacturer":"Karbonn","model":"Karbonn A27+","name":"mbk77_twn_cu_jb","type":"android"},"ip":"60.254.6.107","library":{"name":"analytics-android","version":"3.1.2"},"locale":"en-IN","network":{"bluetooth":false,"carrier":"Vodafone","cellular":false,"wifi":true},"os":{"name":"Android","version":"4.1.2"},"screen":{"density":1.5,"height":960,"width":540},"timezone":"Asia/Calcutta","traits":{"anonymousId":"684ee341-53f8-4585-ad6d-349d91fb443b","email":"deepakdamar.singh@gmail.com","userId":"9c39f977b4cb0853"},"userAgent":"Dalvik/1.6.0 (Linux; U; Android 4.1.2; Karbonn A27+ Build/JZO54K)"},"event":"App Open","integrations":{"All":true,"AppsFlyer":true,"Mixpanel":true},"messageId":"6854fdce-fe94-4ffc-b919-0864f6795dc4","originalTimestamp":"2015-08-11T15:41:56+0530","projectId":"mqCSrcxyGW","properties":{},"receivedAt":"2015-08-11T10:12:31.228Z","sentAt":"2015-08-11T10:12:28.000Z","timestamp":"2015-08-11T10:11:59.228Z","type":"track","userId":"9c39f977b4cb0853","version":2,"writeKey":"DQf6nqU1PaMbcVQenYzYSRd6nkUL21b8"}
+{"anonymousId":"20a3c110-4b6e-48b3-ba2a-54c7755ed414","channel":"server","context":{"app":{"build":104,"name":"91mobiles","namespace":"com.mob91","version":"1.0.4"},"device":{"adTrackingEnabled":true,"advertisingId":"d9b5f004-2ea5-424d-a188-c5023faa60cb","id":"533bac51a6b84ca0","manufacturer":"samsung","model":"SM-A500G","name":"a5lte","type":"android"},"ip":"106.79.144.207","library":{"name":"analytics-android","version":"3.1.2"},"locale":"en-US","network":{"bluetooth":false,"carrier":"IDEA","cellular":true,"wifi":false},"os":{"name":"Android","version":"4.4.4"},"screen":{"density":2,"height":1280,"width":720},"timezone":"Asia/Kolkata","traits":{"anonymousId":"20a3c110-4b6e-48b3-ba2a-54c7755ed414","email":"gopalbadar508@gmail.com","userId":"533bac51a6b84ca0"},"userAgent":"Dalvik/1.6.0 (Linux; U; Android 4.4.4; SM-A500G Build/KTU84P)"},"event":"See more stores","integrations":{"All":true,"AppsFlyer":true,"Mixpanel":true},"messageId":"0b759497-9a13-495e-b4c7-7fdc88d35400","originalTimestamp":"2015-08-11T15:40:34+0530","projectId":"mqCSrcxyGW","properties":{"categoryId":"553","categoryName":"mobile","currentPrice":"9999","expectedPrice":"0","make":"Lenovo","model":"K3 Note","osPlatform":"Android v5.0 (Lollipop)","productId":"25106"},"receivedAt":"2015-08-11T10:12:31.673Z","sentAt":"2015-08-11T10:10:59.000Z","timestamp":"2015-08-11T10:12:06.673Z","type":"track","userId":"533bac51a6b84ca0","version":2,"writeKey":"DQf6nqU1PaMbcVQenYzYSRd6nkUL21b8"}
+
+
+
+
+
+#################################################################################
+use upsert for insert and update
+
+eg: db.post.update({ "_id" : 100}, {$set:{"title" : "MongoDB Overview", "description" : "MongoDB is no sql database", "by" : "tutorials point", "url" : "http://www.tutorialspoint.com", "tags" : [ "mongodb", "database", "NoQL" ], "likes" : 1000 }}, {upsert:true})
+##################################################################################
+
+
+
+db.post.insert([
+{
+   title: 'MongoDB Overview',
+   description: 'MongoDB is no sql database',
+   by: 'tutorials point',
+   url: 'http://www.tutorialspoint.com',
+   tags: ['mongodb', 'database', 'NoSQL'],
+   likes: 100
+},db.post.insert([{
+   title: 'NoSQL Database',
+   description: 'NoSQL database doesn't have tables',
+   by: 'tutorials point',
+   url: 'http://www.tutorialspoint.com',
+   tags: ['mongodb', 'database', 'NoSQL'],
+   likes: 20,
+   comments: [
+      {
+         user:'user1',
+         message: 'My first comment',
+         dateCreated: new Date(2013,11,10,2,35),
+         like: 0
+      }
+   ]
+}
+])
+
+{$or: [ {"detail count":5,"finder visit":3},{"fav":"S4"},{"fav":"S5"}]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+   "anonymousId":"684ee341-53f8-4585-ad6d-349d91fb443b",
+   "channel":"server",
+   "context":{
+      "app":{
+         "build":104,
+         "name":"91mobiles",
+         "namespace":"com.mob91",
+         "version":"1.0.4"
+      },
+      "device":{
+         "id":"9c39f977b4cb0853",
+         "manufacturer":"Karbonn",
+         "model":"Karbonn A27+",
+         "name":"mbk77_twn_cu_jb",
+         "type":"android"
+      },
+      "ip":"60.254.6.107",
+      "library":{
+         "name":"analytics-android",
+         "version":"3.1.2"
+      },
+      "locale":"en-IN",
+      "network":{
+         "bluetooth":false,
+         "carrier":"Vodafone",
+         "cellular":false,
+         "wifi":true
+      },
+      "os":{
+         "name":"Android",
+         "version":"4.1.2"
+      },
+      "screen":{
+         "density":1.5,
+         "height":960,
+         "width":540
+      },
+      "timezone":"Asia/Calcutta",
+      "traits":{
+         "anonymousId":"684ee341-53f8-4585-ad6d-349d91fb443b",
+         "email":"deepakdamar.singh@gmail.com",
+         "userId":"9c39f977b4cb0853"
+      },
+      "userAgent":"Dalvik/1.6.0 (Linux; U; Android 4.1.2; Karbonn A27+ Build/JZO54K)"
+   },
+   "integrations":{
+      "All":true,
+      "AppsFlyer":true,
+      "Mixpanel":true
+   },
+   "messageId":"33509d0d-28a8-4990-8533-5430089cb04d",
+   "originalTimestamp":"2015-08-11T15:41:54+0530",
+   "projectId":"mqCSrcxyGW",
+   "receivedAt":"2015-08-11T10:12:31.227Z",
+   "sentAt":"2015-08-11T10:12:28.000Z",
+   "timestamp":"2015-08-11T10:11:57.227Z",
+   "traits":{
+      "anonymousId":"684ee341-53f8-4585-ad6d-349d91fb443b",
+      "email":"deepakdamar.singh@gmail.com",
+      "userId":"9c39f977b4cb0853"
+   },
+   "type":"identify",
+   "userId":"9c39f977b4cb0853",
+   "version":2,
+   "writeKey":"DQf6nqU1PaMbcVQenYzYSRd6nkUL21b8"
+}{
+   "anonymousId":"684ee341-53f8-4585-ad6d-349d91fb443b",
+   "channel":"server",
+   "context":{
+      "app":{
+         "build":104,
+         "name":"91mobiles",
+         "namespace":"com.mob91",
+         "version":"1.0.4"
+      },
+      "device":{
+         "id":"9c39f977b4cb0853",
+         "manufacturer":"Karbonn",
+         "model":"Karbonn A27+",
+         "name":"mbk77_twn_cu_jb",
+         "type":"android"
+      },
+      "ip":"60.254.6.107",
+      "library":{
+         "name":"analytics-android",
+         "version":"3.1.2"
+      },
+      "locale":"en-IN",
+      "network":{
+         "bluetooth":false,
+         "carrier":"Vodafone",
+         "cellular":false,
+         "wifi":true
+      },
+      "os":{
+         "name":"Android",
+         "version":"4.1.2"
+      },
+      "screen":{
+         "density":1.5,
+         "height":960,
+         "width":540
+      },
+      "timezone":"Asia/Calcutta",
+      "traits":{
+         "anonymousId":"684ee341-53f8-4585-ad6d-349d91fb443b",
+         "email":"deepakdamar.singh@gmail.com",
+         "userId":"9c39f977b4cb0853"
+      },
+      "userAgent":"Dalvik/1.6.0 (Linux; U; Android 4.1.2; Karbonn A27+ Build/JZO54K)"
+   },
+   "event":"App Open",
+   "integrations":{
+      "All":true,
+      "AppsFlyer":true,
+      "Mixpanel":true
+   },
+   "messageId":"6854fdce-fe94-4ffc-b919-0864f6795dc4",
+   "originalTimestamp":"2015-08-11T15:41:56+0530",
+   "projectId":"mqCSrcxyGW",
+   "properties":{
+
+   },
+   "receivedAt":"2015-08-11T10:12:31.228Z",
+   "sentAt":"2015-08-11T10:12:28.000Z",
+   "timestamp":"2015-08-11T10:11:59.228Z",
+   "type":"track",
+   "userId":"9c39f977b4cb0853",
+   "version":2,
+   "writeKey":"DQf6nqU1PaMbcVQenYzYSRd6nkUL21b8"
+}{
+   "anonymousId":"20a3c110-4b6e-48b3-ba2a-54c7755ed414",
+   "channel":"server",
+   "context":{
+      "app":{
+         "build":104,
+         "name":"91mobiles",
+         "namespace":"com.mob91",
+         "version":"1.0.4"
+      },
+      "device":{
+         "adTrackingEnabled":true,
+         "advertisingId":"d9b5f004-2ea5-424d-a188-c5023faa60cb",
+         "id":"533bac51a6b84ca0",
+         "manufacturer":"samsung",
+         "model":"SM-A500G",
+         "name":"a5lte",
+         "type":"android"
+      },
+      "ip":"106.79.144.207",
+      "library":{
+         "name":"analytics-android",
+         "version":"3.1.2"
+      },
+      "locale":"en-US",
+      "network":{
+         "bluetooth":false,
+         "carrier":"IDEA",
+         "cellular":true,
+         "wifi":false
+      },
+      "os":{
+         "name":"Android",
+         "version":"4.4.4"
+      },
+      "screen":{
+         "density":2,
+         "height":1280,
+         "width":720
+      },
+      "timezone":"Asia/Kolkata",
+      "traits":{
+         "anonymousId":"20a3c110-4b6e-48b3-ba2a-54c7755ed414",
+         "email":"gopalbadar508@gmail.com",
+         "userId":"533bac51a6b84ca0"
+      },
+      "userAgent":"Dalvik/1.6.0 (Linux; U; Android 4.4.4; SM-A500G Build/KTU84P)"
+   },
+   "event":"See more stores",
+   "integrations":{
+      "All":true,
+      "AppsFlyer":true,
+      "Mixpanel":true
+   },
+   "messageId":"0b759497-9a13-495e-b4c7-7fdc88d35400",
+   "originalTimestamp":"2015-08-11T15:40:34+0530",
+   "projectId":"mqCSrcxyGW",
+   "properties":{
+      "categoryId":"553",
+      "categoryName":"mobile",
+      "currentPrice":"9999",
+      "expectedPrice":"0",
+      "make":"Lenovo",
+      "model":"K3 Note",
+      "osPlatform":"Android v5.0 (Lollipop)",
+      "productId":"25106"
+   },
+   "receivedAt":"2015-08-11T10:12:31.673Z",
+   "sentAt":"2015-08-11T10:10:59.000Z",
+   "timestamp":"2015-08-11T10:12:06.673Z",
+   "type":"track",
+   "userId":"533bac51a6b84ca0",
+   "version":2,
+   "writeKey":"DQf6nqU1PaMbcVQenYzYSRd6nkUL21b8"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

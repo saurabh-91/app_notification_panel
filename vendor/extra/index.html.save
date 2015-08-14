@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="query.php">
+Search:<br>
+<input type="text" name="search">
+<br>
+<input type="submit" value="Submit">
+</form> 
+</body>
+</html>
+

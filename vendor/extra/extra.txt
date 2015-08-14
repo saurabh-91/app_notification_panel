@@ -1,0 +1,114 @@
+//$table_array=array();
+    //$brand_list_count=array();
+
+
+
+    // -----------------  seach function of home page(or may be for other pages)   (include this  in a function)-------------
+    /*$searchParams = array();
+    $searchParams['index'] = "flipkart";
+    $searchParams['type']  = "mobile";
+    $searchParams['body']['query']['match']['name'] = $query;
+    $searchParams['size']=2000;//no of documents in elasticsearch
+    // --------------------------- end of function ---------------------------------------------------------------------
+    
+
+
+
+    /*####################################################################
+        filter function comes here
+    ######################################################################
+    */
+    //------------------------------------ this part of function is used by both seach and filter ----------------------
+
+
+
+ //----------------------------------------------------------------------------------------------------------------------
+
+
+
+    // for multiple host
+    //$params['hosts'] = array(
+    //    '127.0.0.1:9200','localhost:9200');
+
+    //$client = new Elasticsearch\Client($params);
+    // ---------------------------------------------------------------------------------------------------------------------
+    // ----------- other function of php client of elasticsearch -----------------------------------------------------------
+    /*$params = [
+        'index' => 'flipkart',
+        'type' => 'mobile',
+        'body' => [
+            'query' => [
+                'match' => [
+                    'brand'=>'nokia'
+                ]
+            ]
+        ]
+    ];*/
+    //echo "done";
+    //$response = $client->search($params);
+    //$searchParams['index'] = 'my_first_index';
+    //$searchParams['type'] = 'my_first_type';
+    // this is how you specify a query in ES
+    //$searchParams['body']['query']['match']['_all'] = 'my_query';
+    //default sorting: _score descending (score  is a simple relevance metric)
+    //$searchParams['body']['sort'] = ['_score'];
+    // the actual query. Results are stored in a PHP array
+    //$retDoc = $client->search($searchParams);
+
+    //print_r($response);
+
+    /*
+    $params = [
+        'index' => 'flipkart'
+    ];
+
+    $response = $client->indices()->delete($params);
+    print_r($response);*/
+
+
+
+
+<!--           way to convert php array to html-table 
+-->
+<!--
+<?php if (count($table_array) > 0): ?>
+    <table>
+      <thead>
+        <tr>
+          <th><?php echo implode('</th><th>', array_keys(current($table_array))); ?></th>
+        </tr>
+      </thead>
+      <tbody>
+    <?php foreach ($table_array as $row): array_map('htmlentities', $row); ?>
+        <tr>
+          <td><?php echo implode('</td><td>', $row); ?></td>
+        </tr>
+    <?php endforeach; ?>
+      </tbody>
+    </table>
+<?php endif; ?>
+-->
+<!-- end of convert_function -->
+<!--<img src="<?php echo $table_array[0][i_link];?>" >
+-->
+
+
+
+
+
+ <!--
+        echo key($brand_list_count)."=";
+        //echo $key." = ";
+        echo current($brand_list_count);
+        //echo " //n ";
+        -->
+
+
+
+
+
+        <!-- <?php ?>  -->
+<!--
+<input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+<input type="checkbox" name="vehicle" value="Car">I have a car 
+-->
